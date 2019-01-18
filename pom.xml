@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.vdenotaris.spring</groupId>
+	<groupId>com.logicoy.spring</groupId>
 	<artifactId>spring-boot-security-saml-sample</artifactId>
 	<version>2.0.0.RELEASE</version>
 	<packaging>jar</packaging>
@@ -11,25 +11,16 @@
 	<!-- Project description -->
 	<name>Spring Boot sample SAML 2.0 Service Provider</name>
 	<description>A sample SAML 2.0 Service Provider built on Spring Boot.</description>
-	<url>https://github.com/vdenotaris/spring-boot-security-saml-sample</url>
+	<url>https://github.com/ansuman-logicoy/logicoy-saml2.0</url>
 	
 	<developers>
 		<developer>
-			<id>vdenotaris</id>
-			<name>Vincenzo De Notaris</name>
-			<email>dev@vdenotaris.com</email>
-			<timezone>CET/CEST</timezone>
+			<id>ansuman</id>
+			<name>Ansuman Nayak</name>
+			<email>ansuman.nayak@logicoy.com</email>
+			<timezone>IST</timezone>
 		</developer>
-	</developers>
-	<contributors>
-		<contributor>
-			<name>Vladimír Schäfer</name>
-		</contributor>
-		<contributor>
-			<name>Alexey Syrtsev</name>
-		</contributor>	
-	</contributors>	
-	
+	</developers>	
 	<licenses>
 		<license>
 			<name>Apache License, Version 2.0</name>
@@ -43,7 +34,7 @@
 		<java.version>1.8</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<start-class>com.vdenotaris.spring.boot.security.saml.web.Application</start-class>
+		<start-class>com.logicoy.spring.boot.security.saml.web.Application</start-class>
 	</properties>
 
 	<!-- Inherit defaults from Spring Boot -->
@@ -105,11 +96,11 @@
 			<version>1.0.3.RELEASE</version>
 		</dependency>
 	</dependencies>
-	
+
 	<scm>
-		<connection>scm:git:git@github.com:vdenotaris/spring-boot-security-saml-sample.git</connection>
-		<url>scm:git:git@github.com:vdenotaris/spring-boot-security-saml-sample.git</url>
-		<developerConnection>scm:git:git@github.com:vdenotaris/spring-boot-security-saml-sample.git</developerConnection>
+		<connection>scm:git:git@github.com:ansuman-logicoy/logicoy-saml2.0.git</connection>
+		<url>scm:git:git@github.com:ansuman-logicoy/logicoy-saml2.0.git</url>
+		<developerConnection>scm:git:git@github.com:ansuman-logicoy/logicoy-saml2.0.git</developerConnection>
 	</scm>
 	
 	<build>
