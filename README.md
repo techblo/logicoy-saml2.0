@@ -87,6 +87,7 @@ To update the SSOCircle certificates within the keystore, just run:
 	Actually there is nothing wrong with the used configuration, thus you can just ignore that message.
 
 ---------
+Contact Me for any kind of saml solution and other solutions and integrations- ansuman@techblo.com
 
 ### License
 
