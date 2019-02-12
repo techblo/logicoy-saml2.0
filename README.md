@@ -11,6 +11,8 @@ Spring Boot Sample SAML 2.0 Service Provider
 Spring Boot makes it easy to create Spring-powered, production-grade applications and services with absolute minimum fuss. It takes an opinionated view of the Spring platform so that new and existing users can quickly get to the bits they need.
 
 - **Website:** [http://projects.spring.io/spring-boot/](http://projects.spring.io/spring-boot/)
+- **Website:** [https://techblo.github.io/logicoy-saml2.0/](https://techblo.github.io/logicoy-saml2.0/)
+
 
 #### Spring Security SAML Extension
 
